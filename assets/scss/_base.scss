@@ -189,6 +189,12 @@ table th {
   border: 0 $alt-fg-color;
 }
 
+tr { 
+  overflow: hidden;
+  height: 14px;
+  white-space: nowrap;
+}
+
 table tr:first-child th {
   border-top: 0;
 }
