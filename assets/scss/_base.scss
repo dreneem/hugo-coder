@@ -197,7 +197,8 @@ table tr td {
 }
 table td,
 table th {
-  border: 0 $alt-fg-color;
+  border: 0 $alt-fg-color
+  white-space: nowrap;
 }
 
 
