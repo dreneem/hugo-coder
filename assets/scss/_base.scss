@@ -182,7 +182,7 @@ td {
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 90%;
 }
 
 @media only screen and (max-width: 480px) {
@@ -193,6 +193,8 @@ table {
 
 table tr td {
         white-space: nowrap;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
 
@@ -208,16 +210,20 @@ table th {
 table tr:first-child th {
   border-top: 0;
   padding-top: 0;
+  padding-bottom: 0;
 }
 
 table tr:last-child td {
   border-bottom: 0;
   padding-top: 0;
+  padding-bottom: 0;
+
 }
 
 table tr td:first-child,
 table tr th:first-child {
   border-left: 0;
+  padding-bottom: 0;
   padding-top: 0;
 }
 
@@ -225,6 +231,8 @@ table tr td:last-child,
 table tr th:last-child {
   border-right: 0;
   padding-top: 0;
+  padding-bottom: 0;
+
 }
 
 img {
