@@ -184,6 +184,10 @@ table {
   border-collapse: collapse;
 }
 
+table tr td {
+  white-space: nowrap;
+}
+
 @media only screen and (max-width: 480px) {
   /* horizontal scrollbar for tables if mobile screen */
   .tablemobile {
@@ -191,7 +195,6 @@ table {
       display: block;
   }
 }
-
 table td,
 table th {
   border: 0 $alt-fg-color;
