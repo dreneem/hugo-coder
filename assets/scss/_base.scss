@@ -185,8 +185,13 @@ table {
 }
 
 table tr td {
-  white-space: nowrap;
-}
+        white-space: nowrap;
+    }
+
+    table th td {
+      white-space: nowrap;
+  } 
+
 
 @media only screen and (max-width: 480px) {
   /* horizontal scrollbar for tables if mobile screen */
@@ -197,8 +202,7 @@ table tr td {
 }
 table td,
 table th {
-  border: 0 $alt-fg-color
-  white-space: nowrap;
+  border: 0 $alt-fg-color;
 }
 
 
