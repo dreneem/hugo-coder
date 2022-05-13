@@ -25,10 +25,12 @@
           line-height: 4.4rem;
         }
         
-        ul {
+        .nobull {
+          ul {
           list-style: none;
           padding: 0;
         }
+      }
       }
     }
 
