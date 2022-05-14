@@ -27,7 +27,9 @@
 
       }
       
-    
+      .alignleft {
+        float: left;
+      }
         
     }
 
@@ -35,6 +37,7 @@
       list-style-type: none;
       margin: 0;
     }   
+    
 
     footer {
       margin-top: 4rem;
